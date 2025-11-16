@@ -21,8 +21,7 @@
                     <input type="text" v-model="otp" class="field">
                     <small v-show="error" class="text-rose-600 mt-4">{{error}}</small>
                 </div>
-                <p class="mt-8 mb-4" >Did not receive the code</p>
-                <button type="button" class="btn-secondary">Resend</button>
+                <p class="mt-8 mb-4" >Did not receive the code <button type="button" class="btn-link">Resend</button></p>
             </section>
         </div>
         <div class="min-w-64 flex justify-between ">
